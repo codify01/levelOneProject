@@ -1,0 +1,24 @@
+.btn-success {
+    background-color: #59041C !important;
+    border: none !important;
+}
+.navList {
+    font-weight: 500 !important;
+}
+.navList:hover {
+    border-bottom: 2px solid #59041C ;
+    color: #59041C !important;
+    font-weight: 500;
+}
+h1 {
+    font-size: 42px !important;
+    width: 85%;
+}
+.firstSec {
+    background-color: #FFF9F2;
+}
+ul {
+    list-style: image-set(
+        url(home/mark.png)
+    );
+}
