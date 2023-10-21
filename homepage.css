@@ -1,3 +1,12 @@
+header {
+    position: fixed !important;
+    width: 100%;
+    top: 0;
+    background-color: white;
+}
+main {
+    margin-top: 15%;
+}
 .btn-success {
     background-color: #59041C !important;
     border: none !important;
@@ -21,4 +30,23 @@ ul {
     list-style: image-set(
         url(home/mark.png)
     );
+}
+.secFour {
+    background-color: #002538;
+    height: 90vh;
+}
+.yesImg {
+    width: 80%;
+    /* height: 70vh !important; */
+}
+.secFive {
+    background-color: #FFF9F2;
+    position: relative;
+    z-index: 1;
+}
+.bg-body-whit {
+    background-color: white !important;
+    border-top: 3px solid #59041C;
+    border-right: 3px solid #59041C;
+    border-radius: 10px;
 }
