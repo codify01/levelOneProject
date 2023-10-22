@@ -1,8 +1,11 @@
+
 header {
     position: fixed !important;
     width: 100%;
     top: 0;
     background-color: white;
+    position: relative;
+    z-index: 2;
 }
 main {
     margin-top: 15%;
@@ -31,9 +34,12 @@ ul {
         url(home/mark.png)
     );
 }
+.Partners {
+    width: 90%;
+}
 .secFour {
     background-color: #002538;
-    height: 90vh;
+    height: 80vh;
 }
 .yesImg {
     width: 80%;
@@ -44,9 +50,65 @@ ul {
     position: relative;
     z-index: 1;
 }
+.secSix {
+    margin: 100px;
+    background-color: #002538;
+}
 .bg-body-whit {
     background-color: white !important;
     border-top: 3px solid #59041C;
     border-right: 3px solid #59041C;
     border-radius: 10px;
+}
+.frame-img {
+    width: 0%;
+    /* height: 330px; */
+}
+
+
+@media screen and (min-width:700px) {
+    main {
+        margin-top: 4%;
+    }
+    .rowOne, .rowTwo, .rowFive {
+        display: flex ;
+        align-items: center;
+        justify-content: center;
+    }
+    .rowSix {
+        display: flex;
+        align-items: center;
+        gap: 70px;
+    }
+    .Partners {
+        width: 30%;
+    }
+    .secFour {
+        background-color: #002538;
+        height: 40vh;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        border-radius: 15px;
+    }
+    .NeRF {
+        position: relative;
+        bottom: 170px;
+    }
+    /* .Neural-p {
+        width: 350px;
+    } */
+    .yesIMg {
+        margin-left: 20%;
+    }
+    .frame-img {
+        width: 70%;
+        height: 330px;
+    }
+    .n-p {
+        width: 80%;
+    }
+    .d-xperience2 {
+        width: 38% !important;
+    }
+    
 }
