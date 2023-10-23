@@ -1,4 +1,6 @@
-
+* {
+    overflow-x: hidden;
+}
 header {
     position: fixed !important;
     width: 100%;
@@ -13,6 +15,9 @@ main {
 .btn-success {
     background-color: #59041C !important;
     border: none !important;
+}
+h1, h2, h3, h5, h6 {
+    font-family: lora;
 }
 .navList {
     font-weight: 500 !important;
@@ -40,6 +45,7 @@ ul {
 .secFour {
     background-color: #002538;
     height: 80vh;
+    overflow-y: hidden;
 }
 .yesImg {
     width: 80%;
@@ -60,13 +66,61 @@ ul {
     border-right: 3px solid #59041C;
     border-radius: 10px;
 }
+.bg-transparent {
+    background-color: transparent !important;
+}
 .frame-img {
     width: 0%;
     /* height: 330px; */
 }
-
-
-@media screen and (min-width:700px) {
+.sec8 {
+    background-color: #FFF9F2;
+    padding: 50px;
+    margin-top: 20px;
+}
+.bg-1-f {
+    background-color: #59041C;
+}
+.btn-ligh {
+    background-color: #FFF9F2 !important;
+    color: #59041C !important;
+}
+.icons {
+    width: 35%;
+}
+@media screen and (min-width:769px) {
+    main {
+        margin-top: 4%;
+    }
+    .rowOne, .rowTwo, .rowFive {
+        display: flex ;
+        align-items: center;
+        justify-content: center;
+    }
+    .rowSix {
+        display: flex;
+        align-items: center;
+        gap: 70px;
+    }
+    .Partners {
+        width: 30%;
+    }
+    
+    .frame-img {
+        width: 70%;
+        height: 330px;
+    }
+    .n-p {
+        width: 80%;
+    }
+    .d-xperience2 {
+        width: 38% !important;
+    }
+    .icons {
+        width: 20% !important;
+    }
+}
+@media screen and (min-width:981px) {
     main {
         margin-top: 4%;
     }
