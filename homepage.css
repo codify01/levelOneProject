@@ -1,6 +1,3 @@
-* {
-    overflow-x: hidden;
-}
 header {
     position: fixed !important;
     width: 100%;
@@ -45,7 +42,7 @@ ul {
 .secFour {
     background-color: #002538;
     height: 80vh;
-    overflow-y: hidden;
+    /* overflow-y: hidden; */
 }
 .yesImg {
     width: 80%;
@@ -153,6 +150,8 @@ ul {
     } */
     .yesIMg {
         margin-left: 20%;
+        position: relative;
+        
     }
     .frame-img {
         width: 70%;
