@@ -136,10 +136,11 @@ ul {
     }
     .secFour {
         background-color: #002538;
-        height: 42vh;
+        height: 50vh;
         margin-top: 10%;
-        margin-bottom: 10%;
+        margin-bottom: 15%;
         border-radius: 15px;
+
     }
     .NeRF {
         position: relative;
