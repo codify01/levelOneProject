@@ -136,14 +136,14 @@ ul {
     }
     .secFour {
         background-color: #002538;
-        height: 40vh;
+        height: 42vh;
         margin-top: 10%;
         margin-bottom: 10%;
         border-radius: 15px;
     }
     .NeRF {
         position: relative;
-        bottom: 170px;
+        bottom: 150px;
     }
     /* .Neural-p {
         width: 350px;
