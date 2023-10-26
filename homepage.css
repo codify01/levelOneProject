@@ -85,6 +85,9 @@ ul {
 .icons {
     width: 35%;
 }
+footer {
+    overflow-x: hidden;
+}
 @media screen and (min-width:769px) {
     main {
         margin-top: 4%;
