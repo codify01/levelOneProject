@@ -85,6 +85,11 @@ ul {
 .icons {
     width: 35%;
 }
+.d-xperience1 {
+    position: relative;
+    left: -11px;
+    bottom: 1px;
+}
 footer {
     overflow-x: hidden;
 }
