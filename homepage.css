@@ -67,7 +67,7 @@ ul {
     background-color: transparent !important;
 }
 .frame-img {
-    width: 0%;
+    width: 90%;
     /* height: 330px; */
 }
 .sec8 {
@@ -86,7 +86,7 @@ ul {
     width: 35%;
 }
 .d-xperience1 {
-    position: relative;
+    position: relative; 
     left: -11px;
     bottom: 1px;
 }
